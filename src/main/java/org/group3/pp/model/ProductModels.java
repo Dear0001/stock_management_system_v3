@@ -1,22 +1,18 @@
 package org.group3.pp.model;
 
-import java.time.LocalDate; // Corrected import for LocalDate
+import java.time.LocalDate;
 
 public class ProductModels {
     private String name;
     private int qty;
     private double price;
-    private LocalDate importedDate; // Added importedDate field with type LocalDate
+    private LocalDate importedDate;
 
     public ProductModels(String name, int qty, double price, LocalDate importedDate) {
         this.name = name;
         this.qty = qty;
         this.price = price;
         this.importedDate = importedDate;
-    }
-
-    public ProductModels() {
-
     }
 
     public String getName() {
